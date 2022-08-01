@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+	
+		
+        <script src="script.js"></script>
+        <meta charset="UTF-8" />
+        
+        <title>Total Amount</title>
+		<link rel="stylesheet" href="style2.css">
+		
+    </head>
+    <body>
+
+		<article class="box">
+
+			<h1 class="h1">Input Your Data</h1>
+			<input type="text" placeholder="Enter CustomerId" id="customerId">
+			<input type="text" placeholder="Enter month" id="month">
+			<input type="submit" value="Get Total Amount"  onclick="submitdata()">
+		</article>
+        <h1>Total Amount For Given Month</h1>
+		<div class="spinner-border text-light" role="status" id="loading">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <!-- table for showing data -->
+        <table id="amountdata"></table>
+    </body>
+</html>

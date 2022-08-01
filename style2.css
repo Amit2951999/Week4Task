@@ -1,0 +1,81 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: rgb(0, 40, 80);
+    background-size: cover;
+}
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+table, td, th {
+  color: white;
+  border: 2px solid white;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+	color: white;
+	text-align: center;
+}
+.box{
+  width:400px;
+  padding:30px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background:rgba(0,0,0,0.4);
+  text-align:center;
+
+}
+.box h1
+{
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.box input[type="text"],.box input[type="password"]
+{
+border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border:3px solid #0367fd;
+padding:14px 10px;
+width:220px;
+outline: none;
+color: white;
+border-radius: 24px;
+transition:0.25px;
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+
+width:270px;
+border-color: #ffffff;
+
+}
+.box input[type="submit"]{
+	background: #ffc400ec;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 35px;
+    outline: none;
+    font-weight: bolder;
+    color: #0367fd;
+    border-radius: 24px;
+    cursor: pointer;
+    
+}
+.box input[type="submit"]:hover{
+    background: #ffc400ec;
+}
